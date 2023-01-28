@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    box-shadow: 1px 1px 5px grey;
+    position: relative;
+    top: 50px;
+    /* right: 150px; */
+    width: 288px;
+    height: 55vh;
+    border: 1px solid rgb(218, 218, 218);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.input {
+    box-shadow: 1px 1px 3px rgb(204, 203, 203);
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 267px;
+    height: 7vh;
+    text-align: end;
+    font-size: 1rem;
+    border: 1px solid rgb(218, 218, 218);
+    transition: all .2s ease-in-out;
+}
+
+.input:hover {
+    /* background-color: rgba(245, 245, 245, 0.838); */
+    box-shadow: 1px 1px 5px grey;
+}
+
+.row {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 60px;
+    width: 535px;
+    /* flex-direction: column; */
+}
+
+
+
+.number {
+    /* box-shadow:-1px -1px 2px grey; */
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    /* text-align: center; */
+    width: 50px;
+    height: 10px;
+    margin: 0px 10px;
+    padding: 25px 25px;
+    border: 1px solid rgb(218, 218, 218);
+    transition: all .2s ease-in-out;
+
+}
+
+.number:hover {
+    background-color: rgba(245, 245, 245, 0.838);
+    box-shadow: 1px 1px 5px grey;
+}
+.operator{
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    /* text-align: center; */
+    width: 50px;
+    height: 10px;
+    margin: 0px 10px;
+    padding: 25px 25px;
+    border: 1px solid rgb(218, 218, 218);
+    transition: all .2s ease-in-out;
+}
+.operator:hover {
+    background-color: rgba(245, 245, 245, 0.838);
+    box-shadow: 1px 1px 5px grey;
+}
+#equal {
+    /* visibility: hidden; */
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    transition: all .2s ease-in-out;
+    padding: 115px 20px;
+    color: rgb(230, 225, 225);
+    border: none;
+    background-color: rgba(24, 24, 233, 0.858);
+}
+
+#equal:hover {
+    background-color: blue;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.upper {
+    background-color: rgb(235, 235, 235);
+}
+
+.upper:hover {
+    box-shadow: 1px 1px 5px grey;
+    background-color: rgb(235, 235, 235);
+
+}
